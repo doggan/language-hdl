@@ -1,0 +1,25 @@
+'scopeName': 'source.hdl'
+'name': 'HDL'
+'fileTypes': [
+  'hdl'
+]
+'patterns': [
+  {
+    'comment': 'block comments'
+    'begin': '/\\*'
+    'end': '\\*/'
+    'name': 'comment.block.hdl'
+  }
+  {
+    'comment': 'single line comments'
+    'begin': '(^[ \\t]+)?(?=//)'
+    'end': '(?!\\G)'
+    'patterns': [
+      {
+        'begin': '//'
+        'end': '\\n'
+        'name': 'comment.line.double-slash.hdl'
+      }
+    ]
+  }
+]
