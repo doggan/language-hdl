@@ -4,7 +4,7 @@
   "description": "Atom language support for HDL files",
   "repository": {
     "type": "git",
-    "repository": "https://github.com/doggan/language-hdl"
+    "url": "https://github.com/doggan/language-hdl"
   },
   "bugs": {
     "url": "https://github.com/doggan/language-hdl/issues"
