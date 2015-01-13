@@ -2,7 +2,13 @@
   "name": "language-hdl",
   "version": "0.1.0",
   "description": "Atom language support for HDL files",
-  "repository": "https://github.com/doggan/language-hdl",
+  "repository": {
+      "type": "git",
+      "repository": "https://github.com/doggan/language-hdl"
+  },
+  "bugs": {
+      "url": "https://github.com/doggan/language-hdl/issues"
+  },
   "license": "MIT",
   "engines": {
     "atom": "*"
