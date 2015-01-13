@@ -1,6 +1,6 @@
 {
   "name": "language-hdl",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom language support for HDL files",
   "repository": "https://github.com/doggan/language-hdl",
   "license": "MIT",
