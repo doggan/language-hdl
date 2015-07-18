@@ -13,7 +13,7 @@
     'name': 'keyword.language.hdl'
   }
   {
-    'match': '\\b(Add16|ALU|And|ARegister|Bit|DFF|DMux|DMux4Way|DMux8Way|DRegister|FullAdder|HalfAdder|Inc16|Keyboard|Mux|Mux4Way16|Mux8Way16|Mux16|Nand|Not|Not16|Or|Or8Way|Or16|PC|RAM4K|RAM8|RAM|RAM16K|RAM64|RAM512|Register|ROM32K|Screen|Xor)\\b'
+    'match': '\\b(Add16|ALU|And|ARegister|Bit|DFF|DMux|DMux4Way|DMux8Way|DRegister|FullAdder|HalfAdder|Inc16|Keyboard|Mux|Mux4Way16|Mux8Way16|Mux16|Nand|Not|Not16|Or|Or8Way|Or16|PC|RAM4K|RAM8|RAM|RAM16K|RAM64|RAM512|Register|ROM32K|Screen|Xor|And16)\\b'
     'name': 'support.function.hdl'
   }
   {
