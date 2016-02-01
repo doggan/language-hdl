@@ -5,11 +5,7 @@
 ]
 'patterns': [
   {
-    'match': '\\b(CHIP|BUILTIN)\\b'
-    'name': 'keyword.language.hdl'
-  }
-  {
-    'match': '\\b(IN|OUT|PARTS)\\b'
+    'match': '\\b(CHIP|BUILTIN|CLOCKED|IN|OUT|PARTS)\\b'
     'name': 'keyword.language.hdl'
   }
   {
